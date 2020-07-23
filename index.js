@@ -56,6 +56,7 @@ app.get('/weather/:latlon', async(request, response) => {
   try{
     //16. We can now load and use the env variable in our code
     const api_key = process.env.API_KEY
+    alert(api_key);
     //let weatherAPI = `https://api.darksky.net/forecast/${api_key}/${lat},${lon}/?units=si`
     let weatherAPI = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api_key}`
         //17. Test the application and check the app still works
