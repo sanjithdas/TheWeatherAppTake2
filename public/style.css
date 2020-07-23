@@ -1,0 +1,21 @@
+p {
+  margin: 1rem 0;
+  padding: .5rem;
+  background-color:lightgray;
+}
+body {
+    margin: 0;
+}
+#Map {
+    height: 100vh;
+}
+
+#MapData {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    width: 100%;
+}
